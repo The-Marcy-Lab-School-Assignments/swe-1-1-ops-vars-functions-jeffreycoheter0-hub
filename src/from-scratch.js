@@ -23,21 +23,17 @@ const convertToFahrenheit = (celsius) => {
 // String & Variable Functions
 const createGreeting = (name) => {
   // TODO: Return a greeting string like "Hello, [name]!"
-  console.log(`Hello, ${name}! `);
+  return `Hello, ${name}!`;
 };
 
 const getInitials = (firstName, lastName) => {
   // TODO: Return initials by taking first letter of each name
-  return `${firstName[0]},${lastName[0]}`;
+  return `${firstName[0]}${lastName[0]}`;
 };
 
 const formatPrice = (price) => {
   // TODO: Return price formatted as "$[price].00" (e.g., "$5.00")
-  if (price < 1) {
-    return `$${price}`
-  } else {
-    return `$${price}.00`
-  }
+  return `$${price}.00`;
 };
 
 // Function Logic Functions
